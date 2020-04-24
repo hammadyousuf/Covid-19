@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:background="@color/Black"
+    android:layout_height="match_parent"
+    tools:context=".helplines">
+
+    //india help line layout start //
+    <androidx.cardview.widget.CardView
+        android:layout_width="130dp"
+        android:layout_height="160dp"
+        android:layout_marginStart="20dp"
+        android:onClick="indiahelpline"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_weight="1"
+        android:onClick="indiahelpline"
+        android:background="@null"
+        android:backgroundTint="@color/colorPrimaryDark"
+
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/ind" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="indiahelpline"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:text="India"
+        android:textAlignment="center"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal" />
+</LinearLayout>
+    </androidx.cardview.widget.CardView>
+    //india help line layout end//
+
+
+
+    //kashmir help line layout start //
+    <androidx.cardview.widget.CardView
+        android:layout_width="130dp"
+        android:layout_height="160dp"
+        android:layout_marginStart="68dp"
+
+        android:onClick="kashmirhelpline"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+
+            android:orientation="vertical">
+
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:onClick="kashmirhelpline"
+                android:background="@null"
+                android:backgroundTint="@color/colorPrimaryDark"
+
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/kashmir" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="kashmirhelpline"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:text="Jammu and Kashmir"
+                android:textAlignment="center"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    //kashmir help line layout end//
+</LinearLayout>
